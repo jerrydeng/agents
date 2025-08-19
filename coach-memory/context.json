@@ -1,0 +1,158 @@
+{
+  "version": "1.0.0",
+  "metadata": {
+    "project_id": "agents-system",
+    "created": "2024-01-19T00:00:00Z",
+    "last_modified": "2024-01-19T00:00:00Z",
+    "coach_version": "1.0.0"
+  },
+  "session": {
+    "id": null,
+    "started": null,
+    "last_update": null,
+    "active_agent": null,
+    "context_hash": null
+  },
+  "working_memory": {
+    "current_task": {
+      "id": null,
+      "title": null,
+      "agent": null,
+      "status": "idle",
+      "started": null,
+      "context_brief": null
+    },
+    "active_context": {
+      "goal": null,
+      "constraints": [],
+      "recent_decisions": [],
+      "pending_questions": [],
+      "blocked_by": null
+    },
+    "agent_handoff": {
+      "from_agent": null,
+      "to_agent": null,
+      "handoff_data": null,
+      "validation_status": null
+    },
+    "sprint_context": {
+      "sprint_id": null,
+      "day": null,
+      "objectives": [],
+      "completed": [],
+      "remaining": []
+    }
+  },
+  "kanban": {
+    "backlog": [],
+    "todo": [],
+    "in_progress": [],
+    "review": [],
+    "done": [],
+    "archive_ref": "./history/archived_tasks.json"
+  },
+  "long_term_memory": {
+    "project_essence": {
+      "vision": "Intelligent agent orchestration system with perfect context alignment",
+      "core_values": ["efficiency", "consistency", "traceability", "performance"],
+      "success_metrics": ["context_violations < 5%", "handoff_time < 2min", "rework < 10%"]
+    },
+    "established_patterns": {
+      "architecture": "./decisions/architecture.md",
+      "agent_protocols": "./decisions/agent-protocols.md",
+      "memory_strategy": "./decisions/memory-strategy.md",
+      "communication_flow": "./decisions/communication-flow.md"
+    },
+    "key_decisions": [],
+    "learned_optimizations": {
+      "frequent_contexts": [],
+      "successful_patterns": [],
+      "avoided_pitfalls": []
+    }
+  },
+  "history_index": {
+    "sessions": {
+      "current": null,
+      "recent": [],
+      "archive": "./history/sessions/"
+    },
+    "decisions": {
+      "recent": [],
+      "archive": "./decisions/"
+    },
+    "agent_outputs": {
+      "recent": [],
+      "by_agent": {},
+      "archive": "./outputs/"
+    },
+    "context_snapshots": {
+      "latest": null,
+      "checkpoints": [],
+      "archive": "./snapshots/"
+    }
+  },
+  "performance": {
+    "access_patterns": {
+      "hot_paths": [],
+      "frequent_queries": [],
+      "cache_hits": 0,
+      "cache_misses": 0
+    },
+    "agent_metrics": {
+      "invocation_count": {},
+      "average_duration": {},
+      "success_rate": {},
+      "context_compliance": {}
+    },
+    "memory_stats": {
+      "working_memory_size": 0,
+      "total_decisions": 0,
+      "total_tasks": 0,
+      "compression_ratio": 1.0
+    },
+    "optimization_hints": {
+      "preload_contexts": [],
+      "cache_priorities": [],
+      "cleanup_schedule": null
+    }
+  },
+  "agent_registry": {
+    "available_agents": {
+      "engineering": ["software-architect", "frontend-developer", "backend-architect", "devops-automator", "ai-engineer", "mobile-app-builder", "rapid-prototyper", "test-writer-fixer"],
+      "design": ["ui-designer", "ux-researcher", "brand-guardian", "visual-storyteller", "whimsy-injector"],
+      "marketing": ["tiktok-strategist", "app-store-optimizer", "content-creator", "growth-hacker", "instagram-curator", "reddit-community-builder", "twitter-engager"],
+      "product": ["sprint-prioritizer", "feedback-synthesizer", "trend-researcher"],
+      "project-management": ["studio-producer", "project-shipper", "experiment-tracker"],
+      "testing": ["test-results-analyzer", "performance-benchmarker", "api-tester", "tool-evaluator", "workflow-optimizer"],
+      "studio-operations": ["analytics-reporter", "finance-tracker", "infrastructure-maintainer", "legal-compliance-checker", "support-responder"],
+      "leadership": ["coach"],
+      "bonus": ["joker"]
+    },
+    "agent_state": {},
+    "capability_map": {}
+  },
+  "context_templates": {
+    "agent_briefing": {
+      "project_core": null,
+      "current_sprint": null,
+      "constraints": [],
+      "relevant_decisions": [],
+      "success_criteria": [],
+      "handoff_requirements": []
+    },
+    "validation_checklist": {
+      "vision_alignment": false,
+      "constraint_compliance": false,
+      "decision_consistency": false,
+      "sprint_contribution": false,
+      "handoff_readiness": false
+    }
+  },
+  "system_state": {
+    "initialization_complete": false,
+    "context_integrity": "unverified",
+    "last_validation": null,
+    "pending_updates": [],
+    "error_log": []
+  }
+}
