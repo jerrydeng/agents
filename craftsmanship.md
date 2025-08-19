@@ -63,7 +63,8 @@ Nothing that violates a higher-level rule can appear in a lower-level rule.
 | C4 | **Rollback ≤ 5 min** | Any release can be reverted without data loss or downtime. |
 | C5 | **No “works on my machine”** | Reproduce every bug in a containerised test before touching prod. |
 | C6 | **Immutable artefacts** | What reaches prod is the exact artefact that passed CI. |
-| C7 | **Code is the doc** | Docstrings only explain *why*, never *what* or *how* (that’s in code/tests). |
+| C7 | **Code is the doc** | Docstrings only explain *why*, never *what* or *how* (that's in code/tests). |
+| C8 | **Coach correctness review with critic escalation** | Coach reviews all outputs for correctness, duplicates, and regressions; escalates critical items to critic for deep verification. |
 
 ---
 
